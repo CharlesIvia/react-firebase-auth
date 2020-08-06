@@ -2,7 +2,7 @@ import React from "react";
 import { Router } from "@reach/router";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
-import ProfilePage from "./ProfilePage";
+import ProfilePage from "./ProfilPage";
 import PasswordReset from "./PasswordReset";
 function Application() {
   const user = null;
