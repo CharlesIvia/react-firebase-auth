@@ -1,15 +1,11 @@
 import React from "react";
-import "./App.css";
 import Application from "./components/Application";
-
+import UserProvider from "./providers/UserProvider";
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Application />
-      </div>
-    </div>
+    <UserProvider>
+      <Application />
+    </UserProvider>
   );
 }
-
 export default App;
